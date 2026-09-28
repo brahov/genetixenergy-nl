@@ -352,9 +352,9 @@ footer a{color:rgba(255,255,255,.8)}
   <div class="glow" aria-hidden="true"></div>
   <div class="in">
     <div>
-      <div class="eyebrow">Voor vastgoedeigenaren en ondernemers</div>
+      <div class="eyebrow">Voor ondernemers en vastgoedeigenaren</div>
       <h1><span class="l"><span>Accu en zonnepanelen.</span></span><span class="l"><span>U investeert niets in het systeem.</span></span><span class="l"><span class="acc">U kiest wat het oplevert.</span></span></h1>
-      <p class="lead">Genetix Energy plaatst op uw locatie een accu met zonnepanelen, betaalt het systeem en verdient het terug met de stroom die het levert: aan de gebruiker en op de avondpiek. U ontvangt een vaste vergoeding voor de plek. Wilt u noodstroom of piekbegrenzing, dan betaalt u die daaruit. Wanneer u wilt, neemt u het systeem over.</p>
+      <p class="lead">Genetix Energy plaatst op uw locatie een accu met zonnepanelen, betaalt het systeem en verdient het terug met de stroom die het levert: in het pand en op de avondpiek. U ontvangt een vaste vergoeding voor de plek. Wilt u noodstroom of piekbegrenzing, dan betaalt u die daaruit. Wanneer u wilt, neemt u het systeem over.</p>
       <div class="btns"><a class="btn" href="#dag">Bekijk een dag</a><a class="btn ghost" href="#keuze">Wat levert het u op</a></div>
       <div class="facts">
         <div><b>€&nbsp;0</b><span>investering in het systeem</span></div>
@@ -377,7 +377,7 @@ footer a{color:rgba(255,255,255,.8)}
   <div class="s statement">
     <div class="in center">
       <span class="rule"></span>
-      <blockquote id="quote">Elke kilowattuur die het systeem opbrengt, gaat naar de avondpiek of tegen zijn eigen tarief naar de gebruiker. Daar verdient het systeem zich mee terug.</blockquote>
+      <blockquote id="quote">Elke kilowattuur die het systeem opbrengt, gaat naar de avondpiek of tegen het tarief van nu naar het verbruik in het pand. Daar verdient het systeem zich mee terug.</blockquote>
       <span class="src">Het rekenprincipe van Genetix Energy</span>
     </div>
   </div>
@@ -392,7 +392,7 @@ footer a{color:rgba(255,255,255,.8)}
       <div>
         <div class="board">
           <div class="bh"><span>Stroom op dit moment</span><b class="num" id="clock">03:00</b></div>
-          <svg class="flow" id="flow" viewBox="0 0 600 420" aria-label="Schema: zonnepanelen, accu, uw bedrijf en het net, met de stroomrichting op het gekozen moment">
+          <svg class="flow" id="flow" viewBox="0 0 600 420" aria-label="Schema: zonnepanelen, accu, het pand en het net, met de stroomrichting op het gekozen moment">
             <defs><radialGradient id="sung"><stop offset="0" stop-color="#ffe2b0"/><stop offset=".55" stop-color="#f3a64a"/><stop offset="1" stop-color="#f3a64a" stop-opacity="0"/></radialGradient></defs>
             <g class="sunc" id="sun"><circle cx="95" cy="62" r="52" fill="url(#sung)"/><circle cx="95" cy="62" r="22" fill="#f6b25c"/></g>
             <path class="ln" d="M170 182 L430 182"/>
@@ -408,7 +408,7 @@ footer a{color:rgba(255,255,255,.8)}
             <path class="fl" data-f="accu-geb" d="M300 300 C300 250,380 200,430 200"/>
             <path class="fl" data-f="net-geb" d="M505 320 L505 214"/>
             <g class="nd" data-n="pv"><rect x="20" y="150" width="150" height="64" rx="12"/><text x="36" y="178">Zonnepanelen</text><text class="s" x="36" y="198">standaard 50 kWp</text></g>
-            <g class="nd" data-n="geb"><rect x="430" y="150" width="150" height="64" rx="12"/><text x="446" y="178">Uw bedrijf</text><text class="s" x="446" y="198">uw verbruik</text></g>
+            <g class="nd" data-n="geb"><rect x="430" y="150" width="150" height="64" rx="12"/><text x="446" y="178">Het pand</text><text class="s" x="446" y="198">verbruik op de locatie</text></g>
             <g class="nd" data-n="net"><rect x="430" y="320" width="150" height="64" rx="12"/><text x="446" y="348">Net en markt</text><text class="s" x="446" y="368">uw aansluiting</text></g>
             <g class="nd" data-n="accu"><rect x="225" y="300" width="150" height="90" rx="12"/><rect x="241" y="316" width="16" height="58" rx="3" fill="#0a2f55" stroke="#2a5d91"/><rect class="lvl" id="lvl" x="243" y="345" width="12" height="27" rx="2" fill="#E56631"/><text x="268" y="338">Accu</text><text class="s" x="268" y="358">200 kWh</text><text class="s num" id="socT" x="268" y="377">55%</text></g>
           </svg>
@@ -428,7 +428,7 @@ footer a{color:rgba(255,255,255,.8)}
         <div class="earn" id="earn">
           <div class="eyebrow">Zo verdient het systeem</div>
           <table>
-            <tr><td>Zonnestroom die u direct gebruikt</td><td>uw tarief</td></tr>
+            <tr><td>Zonnestroom die direct wordt verbruikt</td><td>tarief van nu</td></tr>
             <tr><td>Accu ontladen op de avondpiek</td><td>€&nbsp;0,220</td></tr>
             <tr><td>Zonnestroom die toch het net op gaat</td><td>€&nbsp;0,140</td></tr>
             <tr><td>Bijladen op goedkope uren, kost</td><td>€&nbsp;0,126</td></tr>
@@ -443,7 +443,7 @@ footer a{color:rgba(255,255,255,.8)}
 <section class="s" id="keuze" style="background:var(--bg-alt)">
   <div class="in">
     <div class="hd rv"><span class="rule"></span><div class="eyebrow">02 · Uw keuze</div><h2>Een vergoeding voor de plek, <em class="i">of een dienst die u nodig hebt</em></h2>
-      <p>U kiest één van drie. Hieronder staat wat u netto per maand hebt als u eigenaar en gebruiker tegelijk bent. In alle drie koopt de gebruiker zijn stroom tegen zijn huidige tarief, investeert u niets in het systeem, en betaalt u niets voor beheer en onderhoud.</p></div>
+      <p>U kiest één van drie. In alle drie investeert u niets in het systeem, betaalt u niets voor beheer en onderhoud, en kost de stroom in het pand wat hij nu kost.</p></div>
     <div class="opts rv d1" id="opts">
       <button class="opt on" data-o="plek"><span class="dot"></span><div class="eyebrow">Basis</div><h4>Alleen de plek</h4><p>Het systeem staat op uw dak of terrein. U ontvangt er elke maand een vaste vergoeding voor.</p><div class="pr">+&nbsp;€&nbsp;250<small>per maand, voor u</small></div></button>
       <button class="opt" data-o="nood"><span class="dot"></span><div class="eyebrow">Dienst</div><h4>Noodstroom</h4><p>Een deel van de accu blijft gereserveerd als noodstroom bij uitval van het net. Hoeveel, en voor welke groepen, stellen we vast bij de schouw.</p><div class="pr">€&nbsp;0<small>netto: €&nbsp;250 dienst, €&nbsp;250 plek</small></div></button>
@@ -464,7 +464,7 @@ footer a{color:rgba(255,255,255,.8)}
         <div class="big num" id="nBig">+&nbsp;€&nbsp;250</div>
         <p id="nTxt"></p>
         <ul>
-          <li>Stroom: de gebruiker betaalt zijn huidige tarief. Hoe dat daarna meebeweegt met markt en energiebelasting, staat in de overeenkomst.</li>
+          <li>Stroom in het pand: tegen het tarief van nu. Hoe dat daarna meebeweegt met markt en energiebelasting, staat in de overeenkomst.</li>
           <li>Eenmalige kosten van een dienst, zoals een aanpassing in de meterkast, volgen uit de schouw.</li>
         </ul>
       </div>
@@ -494,25 +494,25 @@ footer a{color:rgba(255,255,255,.8)}
     <div>
       <span class="rule"></span><div class="eyebrow">04 · Wie doet wat</div>
       <h2 style="font-size:clamp(32px,4vw,52px);line-height:1.1;margin:0 0 14px">U stelt de plek beschikbaar. <em class="i">De rest regelen wij.</em></h2>
-      <p style="color:rgba(255,255,255,.64);font-size:17px;margin:0">Is het pand niet van de gebruiker, dan zijn er twee partijen: de eigenaar krijgt de vergoeding, de gebruiker koopt de stroom.</p>
+      <p style="color:rgba(255,255,255,.64);font-size:17px;margin:0">Eén afspraak over de plek. Wie in het pand stroom gebruikt, betaalt het tarief dat nu op de factuur staat.</p>
       <ul id="cList">
-        <li data-k="0"><i>1</i><div><b>U, de eigenaar.</b> Stelt dak of terrein beschikbaar en kiest de vergoeding of de dienst.</div></li>
+        <li data-k="0"><i>1</i><div><b>U.</b> Stelt dak of terrein beschikbaar en kiest de vergoeding of een dienst.</div></li>
         <li data-k="1"><i>2</i><div><b>Genetix Energy.</b> Investeert in het systeem, is er eigenaar van en haalt de opbrengst binnen.</div></li>
-        <li data-k="2"><i>3</i><div><b>De gebruiker.</b> Koopt zijn stroom bij Genetix tegen zijn huidige tarief.</div></li>
+        <li data-k="2"><i>3</i><div><b>Het pand.</b> Alle stroom die er wordt gebruikt, levert Genetix tegen het tarief dat nu op de factuur staat.</div></li>
         <li data-k="3"><i>4</i><div><b>Z Battery Solutions.</b> Levert, installeert en stuurt het systeem met een eigen energiemanagementsysteem.</div></li>
       </ul>
     </div>
     <div>
-      <svg class="dia" id="dia" viewBox="0 0 560 460" aria-label="Diagram: Genetix Energy in het midden, verbonden met de eigenaar, de gebruiker en Z Battery Solutions">
+      <svg class="dia" id="dia" viewBox="0 0 560 460" aria-label="Diagram: Genetix Energy in het midden, verbonden met u, het verbruik in het pand en Z Battery Solutions">
         <path class="ln" d="M150 90 C 210 110, 230 160, 244 190"/>
         <path class="ln" d="M324 250 C 370 250, 390 250, 410 250"/>
         <path class="ln" d="M244 310 C 230 340, 210 380, 170 400"/>
         <path class="fl" data-k="0" d="M150 90 C 210 110, 230 160, 244 190"/>
         <path class="fl" data-k="2" d="M324 250 C 370 250, 390 250, 410 250"/>
         <path class="fl" data-k="3" d="M170 400 C 210 380, 230 340, 244 310"/>
-        <g class="box" data-k="0"><rect x="0" y="56" width="150" height="68" rx="12"/><text x="16" y="86">Eigenaar</text><text class="s" x="16" y="106">plek, vergoeding</text></g>
+        <g class="box" data-k="0"><rect x="0" y="56" width="150" height="68" rx="12"/><text x="16" y="86">U</text><text class="s" x="16" y="106">plek en keuze</text></g>
         <g class="core" data-k="1"><circle cx="270" cy="250" r="70" fill="#0e3a66" stroke="#255a8e"/><circle class="r" cx="270" cy="250" r="88"/><text x="270" y="248" text-anchor="middle">Genetix</text><text class="s" x="270" y="270" text-anchor="middle">INVESTEERT</text></g>
-        <g class="box" data-k="2"><rect x="410" y="216" width="150" height="68" rx="12"/><text x="426" y="246">Gebruiker</text><text class="s" x="426" y="266">stroom, eigen tarief</text></g>
+        <g class="box" data-k="2"><rect x="410" y="216" width="150" height="68" rx="12"/><text x="426" y="246">Het pand</text><text class="s" x="426" y="266">stroom, tarief van nu</text></g>
         <g class="box" data-k="3"><rect x="0" y="366" width="170" height="68" rx="12"/><text x="16" y="396">Z Battery Solutions</text><text class="s" x="16" y="416">techniek en sturing</text></g>
       </svg>
     </div>
@@ -525,14 +525,14 @@ footer a{color:rgba(255,255,255,.8)}
       <p>Een dagbedrijf met een aansluiting van 3x80A en een geschat verbruik van 65.000 kWh per jaar, tegen €&nbsp;0,26 per kWh. Doorgerekend met het rekenmodel van Genetix. Uw eigen getallen volgen uit uw verbruik, tarief en dak.</p></div>
     <div class="counts rv" id="counts">
       <div><b><span class="num" data-n="57500">0</span> <small>kWh</small></b><span>zonnestroom per jaar, afgeleid</span></div>
-      <div><b><span class="num" data-n="38675">0</span> <small>kWh</small></b><span>daarvan direct naar de gebruiker</span></div>
+      <div><b><span class="num" data-n="38675">0</span> <small>kWh</small></b><span>daarvan direct verbruikt in het pand</span></div>
       <div><b><span class="num" data-n="37242">0</span> <small>kWh</small></b><span>uit de accu, op de avondpiek</span></div>
       <div><b class="z"><span class="num" data-n="0">0</span> <small>kWh</small></b><span>zonnestroom het net op</span></div>
     </div>
     <div class="ledger rv d1">
       <div class="head"><b>Wat het systeem per jaar opbrengt</b><span class="pill">Rekenvoorbeeld</span></div>
       <div class="lr lh"><div>Post</div><div>Hoe</div><div style="text-align:right">Per jaar</div></div>
-      <div class="lr"><div>Zonnestroom aan de gebruiker</div><div class="m">38.675 kWh tegen zijn tarief</div><div class="a">€&nbsp;10.056</div></div>
+      <div class="lr"><div>Zonnestroom direct verbruikt in het pand</div><div class="m">38.675 kWh tegen het tarief van nu</div><div class="a">€&nbsp;10.056</div></div>
       <div class="lr"><div>Accu ontladen op de avondpiek</div><div class="m">zonnestroom en bijgeladen stroom</div><div class="a">€&nbsp;8.193</div></div>
       <div class="lr"><div>Bijladen op goedkope uren</div><div class="m">24.479 kWh, incl. energiebelasting</div><div class="a">-&nbsp;€&nbsp;3.084</div></div>
       <div class="lr tot" id="tot"><div><b>Wat het systeem zijn eigenaar oplevert</b></div><div class="m">Genetix, of u na overname</div><div class="a">€&nbsp;15.164</div></div>
@@ -553,7 +553,7 @@ footer a{color:rgba(255,255,255,.8)}
     <div class="path" id="path">
       <div class="line"><i></i></div>
       <div class="p first rv"><div class="n">1</div><h4>Uw gegevens</h4>
-        <p>Jaarverbruik of uw laatste jaarnota, het tarief op uw factuur, de aansluiting en de ruimte op dak of terrein. Ontbreekt iets, dan rekenen we met een onderbouwde aanname en werken die bij zodra u het aanlevert.</p></div>
+        <p>Het jaarverbruik of de laatste jaarnota van het pand, het tarief op de factuur, de aansluiting en de ruimte op dak of terrein. Ontbreekt iets, dan rekenen we met een onderbouwde aanname en werken die bij zodra u het aanlevert.</p></div>
       <div class="p rv d1"><div class="n">2</div><h4>Het voorstel</h4>
         <p>Hoogstens twee kantjes: wat u krijgt, de keuzes met het bedrag per maand, en wat het elke partij oplevert. In de bijlagen de volledige berekening en de overnamesom per maand over tien jaar.</p></div>
       <div class="p rv d2"><div class="n">3</div><h4>Schouw en plaatsing</h4>
@@ -584,7 +584,7 @@ const eur = n => '€\u00a0' + Math.round(n).toLocaleString('nl-NL');
 const eur2 = n => '€\u00a0' + n.toLocaleString('nl-NL', {minimumFractionDigits:2, maximumFractionDigits:2});
 const T = ms => reduce ? 0 : ms;
 
-// Alle getallen op de pagina. Herkomst per waarde: docs/bronnen.md (en docs/feitenblad.md).
+// Alle getallen op de pagina. Herkomst per waarde: docs/feitenblad.md.
 const G = {
   // Standaardsysteem en aanbod (parameters.yaml r. 10-11, 97; SKILL genetix-business-case r. 29, 32-49)
   accuKwh: 200, pvKwp: 50, plek: 250, noodstroom: 250, looptijdMnd: 120, overnameEind: 0.25,
@@ -610,22 +610,22 @@ const moments = [
   { t: '08:00', label: 'Ochtend', soc: 55, flows: ['pv-geb', 'net-geb'],
     kop: 'Het bedrijf start, de zon komt op',
     steps: [
-      ['Wat er gebeurt', 'De eerste zonnestroom gaat direct naar uw verbruik. De rest komt zoals nu uit het net.'],
-      ['Wat de gebruiker betaalt', 'De gebruiker koopt al zijn stroom, van het dak of uit het net, bij Genetix tegen <b>zijn huidige tarief</b>.'],
+      ['Wat er gebeurt', 'De eerste zonnestroom gaat direct naar het verbruik in het pand. De rest komt zoals nu uit het net.'],
+      ['Wat de stroom kost', 'Alle stroom in het pand, van het dak of uit het net, levert Genetix tegen <b>het tarief dat nu op de factuur staat</b>.'],
       ['Wat het u kost', 'Voor beheer, onderhoud en sturing van het systeem betaalt u niets.']
     ] },
   { t: '13:00', label: 'Middag', soc: 95, flows: ['pv-geb', 'pv-accu'],
     kop: 'Zon op het dak, meer dan u verbruikt',
     steps: [
-      ['Wat er gebeurt', 'De zon dekt uw verbruik. Wat over is, gaat de accu in in plaats van goedkoop het net op.'],
-      ['Wat het waard is', 'Zonnestroom die u gebruikt: uw tarief. Zonnestroom in de accu: straks de piekprijs. Het net op zou gemeten <b>€&nbsp;0,140</b> opleveren.'],
+      ['Wat er gebeurt', 'De zon dekt het verbruik. Wat over is, gaat de accu in in plaats van goedkoop het net op.'],
+      ['Wat het waard is', 'Zonnestroom die direct wordt verbruikt: het tarief van nu. Zonnestroom in de accu: straks de piekprijs. Het net op zou gemeten <b>€&nbsp;0,140</b> opleveren.'],
       ['Waarom de accu', 'In het rekenvoorbeeld verderop gaat alle zonnestroom naar het verbruik of de accu; niets gaat tegen €&nbsp;0,140 het net op.']
     ] },
   { t: '19:30', label: 'Avondpiek', soc: 12, flows: ['accu-geb', 'accu-net'],
     kop: 'De accu levert op het duurste moment',
     steps: [
-      ['Wat er gebeurt', 'De zon is weg, de vraag naar stroom is hoog. De accu ontlaadt, naar uw verbruik of naar het net.'],
-      ['Wat het oplevert', 'Gemeten piekprijs <b>€&nbsp;0,220 per kWh</b>. Of de stroom nu naar uw bedrijf of het net gaat, voor het systeem is hij de piekprijs waard.'],
+      ['Wat er gebeurt', 'De zon is weg, de vraag naar stroom is hoog. De accu ontlaadt, naar het verbruik in het pand of naar het net.'],
+      ['Wat het oplevert', 'Gemeten piekprijs <b>€&nbsp;0,220 per kWh</b>. Of de stroom nu naar het pand of het net gaat, voor het systeem is hij de piekprijs waard.'],
       ['Wie stuurt', 'Het energiemanagementsysteem van Z Battery Solutions kiest automatisch wanneer laden en ontladen loont.']
     ] }
 ];
@@ -781,7 +781,7 @@ function count(el){ const n = Number(el.dataset.n); if (reduce || n === 0){ el.t
   const f = t => { if (!t0) t0 = t; const p = Math.min(1, (t - t0)/1400); el.textContent = Math.round(n * (1 - Math.pow(1-p, 3))).toLocaleString('nl-NL'); if (p < 1) requestAnimationFrame(f); }; requestAnimationFrame(f); }
 
 const q = $('quote'); const words = q.textContent.trim().split(/\s+/);
-q.innerHTML = words.map(w => '<span class="w' + (/^(avondpiek|eigen|tarief)/.test(w) ? ' hl' : '') + '">' + w + '</span>').join(' ');
+q.innerHTML = words.map(w => '<span class="w' + (/^(avondpiek|tarief|verbruik)/.test(w) ? ' hl' : '') + '">' + w + '</span>').join(' ');
 const wEls = [...q.querySelectorAll('.w')], src = document.querySelector('.statement .src');
 function playQuote(){ wEls.forEach((w,i) => setTimeout(() => w.classList.add('on'), T(250 + i * 85))); setTimeout(() => src.classList.add('on'), T(250 + wEls.length * 85 + 300)); }
 const cItems = [...document.querySelectorAll('#cList li')], dParts = [...document.querySelectorAll('#dia .box,#dia .core,#dia .fl')];
